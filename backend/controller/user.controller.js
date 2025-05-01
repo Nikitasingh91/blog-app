@@ -1,6 +1,6 @@
 import User from "../modals/usermodels.js"
 import { v2 as cloudinary } from 'cloudinary';
-import bcrypt from "bcrypt"
+import bcrypt from "bcryptjs"
 import createTokenandsavecokkies from "../jwt/AuthToken.js";
 const register = async (req, res) => {
     if (!req.files || Object.keys(req.files).length === 0) {
