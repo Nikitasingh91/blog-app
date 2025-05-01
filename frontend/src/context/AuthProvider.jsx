@@ -61,6 +61,7 @@ export const AuthProvider = ({ children }) => {
                 profiles,
                 isAthenticated,
                 setProfiles,
+                setProfile,
                 setIsAthenticated,
             }}
         >
